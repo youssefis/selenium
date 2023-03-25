@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-03T11:06:52 CST" name="Command line suite" finished-at="2023-03-03T11:06:52 CST" duration-ms="68">
+    <groups>
+    </groups>
+    <test started-at="2023-03-03T11:06:52 CST" name="Command line test" finished-at="2023-03-03T11:06:52 CST" duration-ms="68">
+      <class name="TestNG.TestNGIntro">
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test1()[pri:2, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test1" finished-at="2023-03-03T11:06:52 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:1, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test2" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:3, instance:TestNG.TestNGIntro@65d09a04]" started-at="2023-03-03T11:06:52 CST" name="test3" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNG.TestNGIntro -->
+      <class name="TestNG.TestNGAssertion">
+        <test-method signature="validateMultiplication()[pri:0, instance:TestNG.TestNGAssertion@63475ace]" started-at="2023-03-03T11:06:52 CST" name="validateMultiplication" finished-at="2023-03-03T11:06:52 CST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMultiplication -->
+        <test-method signature="validateNegativeWithNegative()[pri:0, instance:TestNG.TestNGAssertion@63475ace]" started-at="2023-03-03T11:06:52 CST" name="validateNegativeWithNegative" finished-at="2023-03-03T11:06:52 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNegativeWithNegative -->
+        <test-method signature="validateNegativeWithPositive()[pri:0, instance:TestNG.TestNGAssertion@63475ace]" started-at="2023-03-03T11:06:52 CST" name="validateNegativeWithPositive" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNegativeWithPositive -->
+        <test-method signature="validateZero()[pri:0, instance:TestNG.TestNGAssertion@63475ace]" started-at="2023-03-03T11:06:52 CST" name="validateZero" finished-at="2023-03-03T11:06:52 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateZero -->
+      </class> <!-- TestNG.TestNGAssertion -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
