@@ -8,16 +8,24 @@ import org.testng.ITest;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import utils.BrowserUtils;
 import utils.DriverHelper;
 
 import java.time.Duration;
 
 public class TestBaseBlaze {
-
     public WebDriver driver;
+    @BeforeSuite
+    public void clearTheCaches(){
+    driver=DriverHelper.getDrive();
+    driver.manage().deleteAllCookies();
+    }
+
+
     @BeforeMethod
     public void setup() {
+
         driver= DriverHelper.getDrive();
         driver.get("https://demoblaze.com/#");
     }

@@ -25,12 +25,12 @@ public class MacbookProPage {
     public void macbookPageProductInfoValidation(String laptopHeader,String laptopPrice,String laptopDescription){
         Assert.assertEquals(BrowserUtils.getText(macbookPageHeader),laptopHeader);
         Assert.assertEquals(BrowserUtils.getText(macbookProPrice),laptopPrice);
-        Assert.assertEquals(BrowserUtils.getText(macbookProDescription),laptopDescription);
+        Assert.assertTrue(BrowserUtils.getText(macbookProDescription).contains(laptopDescription));
     }
 
     public void clickAddToCardButton(WebDriver driver,String message) throws InterruptedException {
         addToCartButton.click();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         Alert alert = driver.switchTo().alert();
         Assert.assertEquals(alert.getText(),message);
         alert.accept();

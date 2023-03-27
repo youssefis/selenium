@@ -12,6 +12,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import utils.BrowserUtils;
+import utils.ConfigReader;
 
 import java.time.Duration;
 
@@ -41,7 +42,7 @@ public class BankManagerFunctionality {
         driver = new ChromeDriver(options);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login");
+        driver.get(ConfigReader.readProperty("QA_url"));
     }
 
     @Test
@@ -50,7 +51,7 @@ public class BankManagerFunctionality {
         BankManagerPage bankManagerPage=new BankManagerPage(driver);
         bankLoginPage.clickBankManagerLoginButton();
         bankManagerPage.addCustomerButtonClick();
-        bankManagerPage.customerInformationFiller("YUSUF","HOSAINI","60631");
+        bankManagerPage.customerInformationFiller(ConfigReader.readProperty("QA_firstName"),ConfigReader.readProperty("QA_lastName"),ConfigReader.readProperty("QA_postCode"));
         Thread.sleep(500);
         bankManagerPage.customerInfoSubmitButtonClick();
         Assert.assertTrue(bankManagerPage.customerSignUpConfirmationMessageAlertText(driver).contains("Customer added successfully"));
