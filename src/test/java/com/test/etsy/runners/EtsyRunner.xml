@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression suite">
+
+    
+    
+    <test name="etsyTest">
+        <parameter name="searchedPhone" value="iphone 13 case"></parameter>
+        <parameter name="text1" value="iphone"></parameter>
+        <parameter name="text2" value="13"></parameter>
+        <parameter name="text3" value="case"></parameter>
+        
+        <classes>
+            <class name="com.test.etsy.tests.EtsySearchBarFunctionality"></class>
+        </classes>
+
+    </test>
+
+</suite>
+
