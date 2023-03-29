@@ -32,21 +32,19 @@ public class SauceProductsPage {
     @FindBy(css = "#checkout")
     WebElement checkoutButton;
 
-    public void chooseProduct(String productName, String expectedDescription, String expectedPrice) throws InterruptedException {
 
+
+    public void chooseProduct(String productName, String expectedDescription, String expectedPrice) throws InterruptedException {
         for(WebElement product:allProducts){
             if (BrowserUtils.getText(product).contains(productName)) {
                 product.click();
                 break;
             }
         }
-        Thread.sleep(1000);
         Assert.assertTrue(BrowserUtils.getText(productDescription).contains(expectedDescription));
         Assert.assertEquals(BrowserUtils.getText(productPrice),expectedPrice);
         addToCardButton.click();
-        Thread.sleep(1000);
         cartPageButton.click();
-        Thread.sleep(1000);
         checkoutButton.click();
 
     }

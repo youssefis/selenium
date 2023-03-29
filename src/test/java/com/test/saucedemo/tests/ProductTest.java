@@ -2,6 +2,7 @@ package com.test.saucedemo.tests;
 
 import com.test.saucedemo.pages.SauceLoginPage;
 import com.test.saucedemo.pages.SauceProductsPage;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
